@@ -64,7 +64,7 @@ function Menu() {
             return menu;
         });
 
-        // Actualiza el estado de los menús
+        
         setMenus(updatedMenus);
     };
 

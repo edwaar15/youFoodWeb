@@ -12,9 +12,9 @@ function Login({ setUser, listUsers }) {
   const handleClick = (ev) => {
     ev.preventDefault();
 
-    // Verificar si listUsers es una lista válida antes de buscar al usuario
+    
     if (Array.isArray(listUsers)) {
-      // Buscar al usuario por email y contraseña
+     
       const findUser = listUsers.find((user) => user.Email === userLogin.email && user.Password === userLogin.password);
 
       if (findUser) {
