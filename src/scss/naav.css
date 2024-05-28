@@ -1,0 +1,43 @@
+
+
+ul {
+    list-style-type: none;
+    margin: 160px;
+    padding: 0px;
+    overflow: hidden; 
+    margin-top: 0px;
+    padding-left: 200px;
+    margin-top: -250px;
+
+
+
+    
+}
+
+li {
+    float: left; 
+}
+
+
+li a {
+    display: block;
+    color: rgb(10, 8, 8);
+    font-size: 30px;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+    font-weight: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+
+li a:hover {
+    background-color: #ecd5d5d7;
+    border-radius: 20px;
+}
+
+
+li + li {
+    margin-left: 80px; 
+}

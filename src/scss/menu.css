@@ -1,0 +1,57 @@
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.grid-item {
+    border: 1px solid #af6363;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.grid-item h3 {
+    margin-top: 50px; 
+}
+
+.delete-button {
+    background-color: rgb(235, 37, 37);
+    color: rgb(85, 32, 32);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+.delete-button:hover {
+    background-color: rgb(151, 23, 23);
+    
+}
+
+input[type="text"] {
+    margin: 10px 0;
+    padding: 10px;
+    width: 60%;
+    max-width: 150px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}

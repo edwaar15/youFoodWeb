@@ -1,0 +1,36 @@
+
+body {
+    margin: 20px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://img.freepik.com/foto-gratis/mesa-comedor-monton-ajo-verde-botella-aceite-cuchara-mesa-colores-mezclados_140725-86332.jpg?w=1380&t=st=1716832281~exp=1716832881~hmac=00c4c59912ec78ec4fa1260a8b08f6d4d0add60990c681b54ba6b9fcee04e37b') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.918);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.yellow {
+    color: rgb(230, 208, 85);
+}
+
+.green {
+    color: rgb(15, 160, 63);
+}
+
+.blue {
+    color: rgb(30, 169, 179);
+}
+
+.violet {
+    color: rgb(200, 132, 218);
+}
